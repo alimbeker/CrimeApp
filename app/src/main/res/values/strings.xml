@@ -19,4 +19,6 @@
     <string name="response_geojson">response.geojson</string>
     <string name="source">source</string>
     <string name="author">author</string>
+    <string name="hello_amir_alimbayev">Hello Amir Alimbayev</string>
+    <string name="amiralimbayevo_gmail_com">amiralimbayev@gmail.com</string>
 </resources>

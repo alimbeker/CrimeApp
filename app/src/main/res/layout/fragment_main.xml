@@ -4,12 +4,62 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/gray"
+    android:background="@color/dark_blue"
     tools:context=".presentation.main.fragment.MainFragment">
 
 
 
+    <LinearLayout
+        android:id="@+id/linear_hor"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@color/back_blue"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
 
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/profile_man"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="20dp"
+        />
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_gravity="center"
+           >
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:fontFamily="@font/plusjakartasans_regular"
+               android:textColor="@color/white"
+               android:textSize="24sp"
+               android:layout_marginTop="25dp"
+               android:layout_marginStart="10dp"
+               android:text="@string/hello_amir_alimbayev"
+               />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:fontFamily="@font/plusjakartasans_regular"
+               android:textColor="@color/white"
+               android:textSize="16sp"
+               android:layout_marginStart="13dp"
+               android:layout_marginBottom="5dp"
+               android:text="@string/amiralimbayevo_gmail_com"
+               android:layout_marginTop="10dp" />
+       </LinearLayout>
+
+
+    </LinearLayout>
 
 
 
@@ -25,7 +75,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/map_1"
+        android:id="@+id/map_news"
         android:layout_marginEnd="5dp"
         android:layout_width="70dp"
         android:layout_height="70dp"
@@ -35,7 +85,7 @@
 
 
     <ImageView
-        android:id="@+id/map_2"
+        android:id="@+id/map_articles"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_marginStart="5dp"
@@ -45,7 +95,7 @@
          />
 
     <ImageView
-        android:id="@+id/map_3"
+        android:id="@+id/map_map"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:src="@drawable/map_11"
@@ -56,7 +106,7 @@
         />
 
     <ImageView
-        android:id="@+id/map_4"
+        android:id="@+id/map_ai"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_marginStart="5dp"
@@ -66,7 +116,7 @@
         />
 
     <ImageView
-        android:id="@+id/map_5"
+        android:id="@+id/map_call_e"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:src="@drawable/emergency_call"
@@ -76,7 +126,7 @@
 
 
     <ImageView
-        android:id="@+id/map_6"
+        android:id="@+id/map_profile"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:src="@drawable/user_21"
@@ -85,5 +135,9 @@
         app:layout_constraintEnd_toEndOf="@id/pulse_one"
         android:layout_marginTop="15dp"
         />
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

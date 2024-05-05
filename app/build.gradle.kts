@@ -6,6 +6,7 @@ plugins {
     alias(libs.plugins.dagger.hilt.android)
     alias(libs.plugins.kapt)
     alias(libs.plugins.ksp)
+    alias(libs.plugins.navigation)
 }
 
 android {
@@ -112,4 +113,7 @@ dependencies {
     implementation (libs.lottie)
 
 
+    //    navigation
+    implementation(libs.androidx.navigation.fragment.ktx.v274)
+    implementation(libs.androidx.navigation.ui.ktx.v274)
 }
