@@ -20,7 +20,7 @@ class SplashActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_splash)
 
-            timer = object : CountDownTimer(4000,2500){
+            timer = object : CountDownTimer(4500,3500){
                 override fun onTick(p0: Long) {
 
                 }
