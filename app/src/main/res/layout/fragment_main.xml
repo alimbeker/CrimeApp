@@ -15,10 +15,10 @@
 
     <ImageView
         android:id="@+id/pulse_one"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_marginTop="264dp"
-        android:src="@drawable/pulse"
+        android:src="@drawable/suspect"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,7 +29,7 @@
         android:layout_marginEnd="5dp"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:src="@drawable/map_location"
+        android:src="@drawable/world_news"
         app:layout_constraintEnd_toStartOf="@+id/pulse_one"
         app:layout_constraintTop_toTopOf="@+id/pulse_one" />
 
@@ -39,7 +39,7 @@
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_marginStart="5dp"
-        android:src="@drawable/map_location"
+        android:src="@drawable/article"
         app:layout_constraintTop_toTopOf="@id/pulse_one"
         app:layout_constraintStart_toEndOf="@id/pulse_one"
          />
@@ -48,7 +48,7 @@
         android:id="@+id/map_3"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:src="@drawable/map_location"
+        android:src="@drawable/map_11"
         app:layout_constraintBottom_toTopOf="@id/pulse_one"
         app:layout_constraintStart_toStartOf="@id/pulse_one"
         app:layout_constraintEnd_toEndOf="@id/pulse_one"
@@ -60,7 +60,7 @@
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_marginStart="5dp"
-        android:src="@drawable/map_location"
+        android:src="@drawable/artificial_intelligence"
         app:layout_constraintBottom_toBottomOf="@id/pulse_one"
         app:layout_constraintEnd_toStartOf="@id/pulse_one"
         />
@@ -69,7 +69,7 @@
         android:id="@+id/map_5"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:src="@drawable/map_location"
+        android:src="@drawable/emergency_call"
         app:layout_constraintStart_toEndOf="@id/pulse_one"
         app:layout_constraintBottom_toBottomOf="@id/pulse_one"
         />
@@ -79,11 +79,11 @@
         android:id="@+id/map_6"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:src="@drawable/map_location"
+        android:src="@drawable/user_21"
         app:layout_constraintTop_toBottomOf="@id/pulse_one"
         app:layout_constraintStart_toStartOf="@id/pulse_one"
         app:layout_constraintEnd_toEndOf="@id/pulse_one"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
