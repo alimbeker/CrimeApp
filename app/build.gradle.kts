@@ -72,6 +72,7 @@ dependencies {
     implementation(libs.androidx.room.common)
     implementation(libs.androidx.room.ktx)
     implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.activity)
     annotationProcessor(libs.androidx.room.compiler)
     ksp(libs.androidx.room.compiler)
 
@@ -105,6 +106,10 @@ dependencies {
 
     //LiveData
     implementation (libs.lifecycle.livedata.ktx)
+
+
+    //lottie animation
+    implementation (libs.lottie)
 
 
 }
