@@ -25,6 +25,7 @@ class MainFragment : Fragment() {
         issuePage()
         newsPage()
         extraCallPage()
+        webViewPage()
     }
 
 
@@ -51,6 +52,14 @@ class MainFragment : Fragment() {
         binding.apply {
             mapCallE.setOnClickListener {
                 val action = MainFragmentDirections.actionMainFragmentToProfileFragment()
+                findNavController().navigate(action)
+            }
+        }
+    }
+    private fun webViewPage(){
+        binding.apply {
+            mapArticles.setOnClickListener {
+                val action = MainFragmentDirections.actionMainFragmentToArticleFragment()
                 findNavController().navigate(action)
             }
         }
