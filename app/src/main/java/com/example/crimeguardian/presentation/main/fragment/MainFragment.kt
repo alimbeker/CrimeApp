@@ -26,6 +26,7 @@ class MainFragment : Fragment() {
         newsPage()
         extraCallPage()
         webViewPage()
+        userPageScreen()
     }
 
 
@@ -60,6 +61,14 @@ class MainFragment : Fragment() {
         binding.apply {
             mapArticles.setOnClickListener {
                 val action = MainFragmentDirections.actionMainFragmentToArticleFragment()
+                findNavController().navigate(action)
+            }
+        }
+    }
+    private fun userPageScreen(){
+        binding.apply {
+            mapProfile.setOnClickListener {
+                val action = MainFragmentDirections.actionMainFragmentToUserProfileFragment()
                 findNavController().navigate(action)
             }
         }
