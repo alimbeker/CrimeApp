@@ -9,7 +9,7 @@
     <color name="news_fragment_background">#000000</color>
     <color name="orange">#FF5722</color>
     <color name="blue">#1228A1</color>
-    <color name="gray">#B8B6B6</color>
+    <color name="gray">#EDEDED</color>
     <color name="dark_blue">#020720</color>
     <color name="back_blue">#050F3A</color>
     <color name="card_back">#193147</color>
@@ -17,5 +17,5 @@
     <color name="green">#26912A</color>
     <color name="yellow">#FFEB3B</color>
     <color name="green_light">#1DB7AE</color>
-
+    <color name="back_profile">#ececec</color>
 </resources>

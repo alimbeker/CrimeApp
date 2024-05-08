@@ -32,7 +32,7 @@ class MainFragment : Fragment() {
 
     private fun issuePage(){
         binding.apply {
-            mapMap.setOnClickListener {
+            imageMap.setOnClickListener {
                 val action = MainFragmentDirections.actionMainFragmentToIssuesFragment()
                 findNavController().navigate(action)
             }
@@ -42,7 +42,7 @@ class MainFragment : Fragment() {
 
     private fun newsPage(){
         binding.apply {
-            mapNews.setOnClickListener {
+            imageNews.setOnClickListener {
                 val action = MainFragmentDirections.actionMainFragmentToNewsFragment()
                 findNavController().navigate(action)
             }
@@ -51,7 +51,7 @@ class MainFragment : Fragment() {
 
     private fun extraCallPage(){
         binding.apply {
-            mapCallE.setOnClickListener {
+            sosCall.setOnClickListener {
                 val action = MainFragmentDirections.actionMainFragmentToProfileFragment()
                 findNavController().navigate(action)
             }
@@ -59,7 +59,7 @@ class MainFragment : Fragment() {
     }
     private fun webViewPage(){
         binding.apply {
-            mapArticles.setOnClickListener {
+            articleImage.setOnClickListener {
                 val action = MainFragmentDirections.actionMainFragmentToArticleFragment()
                 findNavController().navigate(action)
             }
@@ -67,7 +67,7 @@ class MainFragment : Fragment() {
     }
     private fun userPageScreen(){
         binding.apply {
-            mapProfile.setOnClickListener {
+            profileUser.setOnClickListener {
                 val action = MainFragmentDirections.actionMainFragmentToUserProfileFragment()
                 findNavController().navigate(action)
             }
