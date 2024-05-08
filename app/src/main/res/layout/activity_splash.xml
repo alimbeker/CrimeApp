@@ -3,15 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:background="@color/dark_blue"
+    android:background="@color/green"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".presentation.splash.screen.SplashActivity">
 
 
         <com.airbnb.lottie.LottieAnimationView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
             app:lottie_rawRes="@raw/animation"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"

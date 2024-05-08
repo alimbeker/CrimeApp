@@ -13,4 +13,7 @@
     <color name="dark_blue">#020720</color>
     <color name="back_blue">#050F3A</color>
     <color name="card_back">#193147</color>
+    <color name="back_green">#8AEF8E</color>
+    <color name="green">#26912A</color>
+    <color name="yellow">#FFEB3B</color>
 </resources>
