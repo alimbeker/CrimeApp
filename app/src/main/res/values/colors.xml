@@ -18,4 +18,5 @@
     <color name="yellow">#FFEB3B</color>
     <color name="green_light">#1DB7AE</color>
     <color name="back_profile">#ececec</color>
+    <color name="user_back_profile">#373EBF</color>
 </resources>

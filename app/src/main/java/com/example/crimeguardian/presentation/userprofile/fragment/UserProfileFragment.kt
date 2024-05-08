@@ -5,7 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.crimeguardian.R
+import androidx.navigation.fragment.findNavController
 import com.example.crimeguardian.databinding.FragmentUserProfileBinding
 
 
@@ -24,5 +24,13 @@ class UserProfileFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        buttonBack()
+    }
+
+
+    private fun buttonBack(){
+        binding.btnToBack.setOnClickListener {
+            findNavController().popBackStack()
+        }
     }
             }
