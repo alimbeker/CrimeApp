@@ -33,5 +33,7 @@
         It\'s useful in various situations like hiking or traveling where immediate assistance might be needed.
         Having an SOS button can bring peace of mind, especially for vulnerable individuals. </string>
 
-
+    <string name="profile_desc">The profile section in an app serves immediate needs, enabling
+        users to personalize their experience, manage data securely, control communication preferences, and access support.
+        It\'s vital for user engagement and satisfaction, providing a seamless and personalized experience while addressing concerns promptly.</string>
 </resources>
