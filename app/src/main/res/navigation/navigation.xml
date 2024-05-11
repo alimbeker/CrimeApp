@@ -40,6 +40,9 @@
         <action
             android:id="@+id/action_mainFragment_to_userProfileFragment"
             app:destination="@id/userProfileFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_AIFragment"
+            app:destination="@id/AIFragment" />
     </fragment>
     <fragment
         android:id="@+id/articleFragment"
@@ -51,4 +54,9 @@
         android:name="com.example.crimeguardian.presentation.userprofile.fragment.UserProfileFragment"
         android:label="fragment_user_profile"
         tools:layout="@layout/fragment_user_profile" />
+    <fragment
+        android:id="@+id/AIFragment"
+        android:name="com.example.crimeguardian.presentation.ai.fragment.AIFragment"
+        android:label="fragment_a_i"
+        tools:layout="@layout/fragment_a_i" />
 </navigation>
