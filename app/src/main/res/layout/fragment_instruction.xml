@@ -214,6 +214,50 @@
             android:layout_marginTop="8dp"
             />
 
+        <ImageView
+            android:id="@+id/ai_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:src="@drawable/ai_button"
+            app:layout_constraintTop_toBottomOf="@+id/profile_part"
+            />
+
+        <TextView
+            android:id="@+id/ai_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/ai_btn"
+            app:layout_constraintTop_toTopOf="@id/ai_btn"
+            android:text="@string/profile_desc"
+            android:textColor="@color/map_text"
+            android:textSize="16sp"
+            style="@style/ShapeRound"
+            />
+
+
+        <androidx.constraintlayout.helper.widget.Flow
+            android:id="@+id/ai_part"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:constraint_referenced_ids="ai_btn, ai_text"
+            app:flow_horizontalGap="8dp"
+            app:flow_horizontalStyle="packed"
+            app:flow_verticalStyle="packed"
+            app:flow_wrapMode="chain"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profile_part"
+            app:layout_constraintVertical_bias="0.0"
+            android:layout_marginTop="8dp"
+            />
+
+
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
