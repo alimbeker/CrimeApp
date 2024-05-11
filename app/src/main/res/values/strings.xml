@@ -19,9 +19,19 @@
     <string name="response_geojson">response.geojson</string>
     <string name="source">source</string>
     <string name="author">author</string>
+
     <string name="map_desc">The map button shows you which area you are in for crimes.
         This helps you quickly recognize which position you are in.
         You can also find out the exact point where and in which area the attacks occurred how many times.
         This will save time to quickly explore the locations.</string>
+
+    <string name="news_desc">The news button will help you find out the latest news in the field of crime.
+        You can also find additional information materials from the feed there.
+        Also, access to the feed will help you further explore some articles.</string>
+
+    <string name="sos_desc">An "SOS" button is essential for emergencies because it offers a fast way to call for help when in danger.
+        It\'s useful in various situations like hiking or traveling where immediate assistance might be needed.
+        Having an SOS button can bring peace of mind, especially for vulnerable individuals. </string>
+
 
 </resources>
