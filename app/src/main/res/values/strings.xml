@@ -27,4 +27,8 @@
     <string name="sample_mail_com">Sample@mail.com</string>
     <string name="type_password">Type password</string>
     <string name="re_type_password">Re-type password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
 </resources>
