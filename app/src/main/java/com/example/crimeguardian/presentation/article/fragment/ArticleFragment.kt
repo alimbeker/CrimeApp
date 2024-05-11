@@ -28,7 +28,7 @@ class ArticleFragment : Fragment() {
         webViewPage()
     }
 
-
+//hjkhh
     @SuppressLint("SetJavaScriptEnabled")
     private fun webViewPage(){
         binding.webView1.settings.javaScriptEnabled = true
