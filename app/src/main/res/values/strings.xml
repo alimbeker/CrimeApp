@@ -23,4 +23,8 @@
     <string name="amiralimbayevo_gmail_com">amiralimbayev@gmail.com</string>
     <string name="nurislam_assan">Nurislam Assan</string>
     <string name="message">Message</string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="sample_mail_com">Sample@mail.com</string>
+    <string name="type_password">Type password</string>
+    <string name="re_type_password">Re-type password</string>
 </resources>
