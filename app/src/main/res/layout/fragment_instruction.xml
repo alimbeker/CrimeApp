@@ -13,7 +13,8 @@
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        >
 
         <ImageView
             android:id="@+id/banner"
@@ -63,9 +64,6 @@
         android:id="@+id/map_text"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
         android:text="@string/map_desc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/map_butt"
@@ -75,7 +73,7 @@
         />
 
     <androidx.constraintlayout.helper.widget.Flow
-        android:id="@+id/share_btn"
+        android:id="@+id/map_part"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:constraint_referenced_ids="map_butt, map_text"
@@ -89,6 +87,45 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/part1"
         app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/news_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/world_news"
+        app:layout_constraintTop_toBottomOf="@id/map_part"
+        />
+
+    <TextView
+        android:id="@+id/news_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/news_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/news_btn"
+        app:layout_constraintTop_toTopOf="@id/news_btn"
+        android:textColor="@color/map_text"
+        android:textSize="16sp"
+        />
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/news_part"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="news_btn, news_text"
+        app:flow_horizontalGap="8dp"
+        app:flow_horizontalStyle="packed"
+        app:flow_verticalStyle="packed"
+        app:flow_wrapMode="chain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/map_part"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginTop="8dp"
+        />
 
 
 
