@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#F5F5F5"
     tools:context=".presentation.LoginFragment">
 
@@ -26,8 +26,8 @@
         android:fontFamily="@font/plusjakartasans_regular"
         android:text="@string/sign_up"
         android:textColor="@color/white"
-        android:textStyle="bold"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -36,9 +36,9 @@
         android:layout_width="match_parent"
         android:layout_height="551dp"
         android:layout_marginStart="15dp"
+        android:layout_marginTop="175dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="34dp"
-        android:layout_marginTop="175dp"
         android:background="@drawable/back_shape_earth"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,12 +49,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="130dp"
+            android:layout_marginTop="133dp"
             android:fontFamily="@font/plusjakartasans_regular"
             android:text="@string/name"
             android:textColor="@color/layout_head_text"
-            android:textStyle="bold"
             android:textSize="12sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
 
             app:layout_constraintHorizontal_bias="0.140"
@@ -86,13 +86,14 @@
             android:fontFamily="@font/plusjakartasans_regular"
             android:text="@string/email"
             android:textColor="@color/layout_head_text"
-            android:textStyle="bold"
             android:textSize="12sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
 
-            app:layout_constraintHorizontal_bias="0.150"
+            app:layout_constraintHorizontal_bias="0.160"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
         <EditText
             android:id="@+id/email"
             android:layout_width="match_parent"
@@ -110,18 +111,19 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/name" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="271dp"
+            android:layout_marginTop="273dp"
             android:fontFamily="@font/plusjakartasans_regular"
             android:text="@string/password"
             android:textColor="@color/layout_head_text"
-            android:textStyle="bold"
             android:textSize="12sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
 
-            app:layout_constraintHorizontal_bias="0.160"
+            app:layout_constraintHorizontal_bias="0.180"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -143,6 +145,20 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/email" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="343dp"
+            android:fontFamily="@font/plusjakartasans_regular"
+            android:text="@string/re_password"
+            android:textColor="@color/layout_head_text"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <EditText
             android:id="@+id/re_password"
             android:layout_width="match_parent"
@@ -152,15 +168,44 @@
             android:layout_marginEnd="25dp"
             android:background="@drawable/shape_login_layout"
             android:fontFamily="@font/plusjakartasans_regular"
-            android:textStyle="bold"
             android:hint="@string/re_type_password"
             android:inputType="textPersonName|textCapWords"
             android:textColor="@color/black"
             android:textColorHint="@color/hint_color"
             android:textSize="12sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/password" />
+
+
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/re_password" />
+
+
+        <TextView
+            android:id="@+id/privacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:layout_marginLeft="54dp"
+            android:fontFamily="@font/plusjakartasans_regular"
+            android:text="@string/privacy"
+            android:textColor="@color/layout_head_text"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.425"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/re_password" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
