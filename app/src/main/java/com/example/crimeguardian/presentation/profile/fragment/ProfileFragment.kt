@@ -32,7 +32,7 @@ class ProfileFragment : BaseFragment<FragmentProfileBinding>(FragmentProfileBind
         binding.extraCall.setOnClickListener {
             selectedContactNumber?.let { makeCall(it) }
                 ?: showToast("Yamada KUDASSAAYY oh baby")
-            pickContact()
+
         }
     }
 

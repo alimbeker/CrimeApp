@@ -1,4 +1,4 @@
-package com.example.crimeguardian.presentation.сrimeInstruction
+package com.example.crimeguardian.presentation.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

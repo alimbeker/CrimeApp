@@ -27,7 +27,7 @@ class MainFragment : Fragment() {
         extraCallPage()
         webViewPage()
         userPageScreen()
-        aiPageScreen()
+        instructionPageScreen()
     }
 
 
@@ -74,10 +74,10 @@ class MainFragment : Fragment() {
             }
         }
     }
-    private fun aiPageScreen(){
+    private fun instructionPageScreen(){
         binding.apply {
             aiImgView.setOnClickListener {
-                val action = MainFragmentDirections.actionMainFragmentToAIFragment()
+                val action = MainFragmentDirections.actionMainFragmentToInstructionFragment()
                 findNavController().navigate(action)
             }
         }
