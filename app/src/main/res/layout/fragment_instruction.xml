@@ -75,6 +75,7 @@
             android:textColor="@color/map_text"
             android:textSize="16sp"
             style="@style/ShapeRound"
+            android:fontFamily="@font/plusjakartasans_regular"
             />
 
         <androidx.constraintlayout.helper.widget.Flow
@@ -113,6 +114,7 @@
             android:textColor="@color/map_text"
             android:textSize="16sp"
             style="@style/ShapeRound"
+            android:fontFamily="@font/plusjakartasans_regular"
             />
 
         <androidx.constraintlayout.helper.widget.Flow
@@ -154,6 +156,7 @@
             android:textColor="@color/map_text"
             android:textSize="16sp"
             style="@style/ShapeRound"
+            android:fontFamily="@font/plusjakartasans_regular"
             />
 
         <androidx.constraintlayout.helper.widget.Flow
@@ -194,6 +197,7 @@
             android:textColor="@color/map_text"
             android:textSize="16sp"
             style="@style/ShapeRound"
+            android:fontFamily="@font/plusjakartasans_regular"
             />
 
         <androidx.constraintlayout.helper.widget.Flow
@@ -234,6 +238,7 @@
             android:textColor="@color/map_text"
             android:textSize="16sp"
             style="@style/ShapeRound"
+            android:fontFamily="@font/plusjakartasans_regular"
             />
 
 
