@@ -19,6 +19,12 @@
     <string name="response_geojson">response.geojson</string>
     <string name="source">source</string>
     <string name="author">author</string>
+    <string name="hello_amir_alimbayev">Hello Amir Alimbekerov</string>
+    <string name="amiralimbayevo_gmail_com">amiralimbayev@gmail.com</string>
+    <string name="nurislam_assan">Nurislam Assan</string>
+    <string name="message">Message</string>
+
+
 
     <string name="map_desc">The map button shows you which area you are in for crimes.
         This helps you quickly recognize which position you are in.
@@ -40,5 +46,5 @@
     <string name="ai_desc">AI is indispensable for numerous reasons.
         It automates tasks, offers insights from data, tailors experiences, drives innovation, manages risks,
         transforms healthcare, improves customer service, and aids environmental sustainability.</string>
-
 </resources>
+

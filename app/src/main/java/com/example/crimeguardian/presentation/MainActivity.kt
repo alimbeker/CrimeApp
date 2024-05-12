@@ -26,12 +26,12 @@ class MainActivity : AppCompatActivity() {
             supportFragmentManager.findFragmentById(R.id.mainContainer) as NavHostFragment
         navController = navHostFragment.navController
 
-        setupBottomNavigation()
+       // setupBottomNavigation()
 
     }
 
-    private fun setupBottomNavigation() {
-        val bottomNavView: BottomNavigationView = findViewById(R.id.bottomMenu)
+  /*  private fun setupBottomNavigation() {
+         val bottomNavView: BottomNavigationView = findViewById(R.id.bottomMenu)
 
         bottomNavView.setOnItemSelectedListener { menuItem ->
             when (menuItem.itemId) {
@@ -41,5 +41,5 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
-    }
+    } */
 }
