@@ -234,7 +234,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/ai_btn"
             app:layout_constraintTop_toTopOf="@id/ai_btn"
-            android:text="@string/profile_desc"
+            android:text="@string/ai_desc"
             android:textColor="@color/map_text"
             android:textSize="16sp"
             style="@style/ShapeRound"

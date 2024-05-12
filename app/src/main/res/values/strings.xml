@@ -36,4 +36,9 @@
     <string name="profile_desc">The profile section in an app serves immediate needs, enabling
         users to personalize their experience, manage data securely, control communication preferences, and access support.
         It\'s vital for user engagement and satisfaction, providing a seamless and personalized experience while addressing concerns promptly.</string>
+
+    <string name="ai_desc">AI is indispensable for numerous reasons.
+        It automates tasks, offers insights from data, tailors experiences, drives innovation, manages risks,
+        transforms healthcare, improves customer service, and aids environmental sustainability.</string>
+
 </resources>
