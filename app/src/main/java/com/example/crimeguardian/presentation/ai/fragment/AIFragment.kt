@@ -33,7 +33,7 @@ class AIFragment : Fragment() {
     private fun webViewPage(){
         binding.webView2.settings.javaScriptEnabled = true
         binding.webView2.webViewClient = WebViewClient()
-        binding.webView2.loadUrl("https://chatgpt.com/")
+        binding.webView2.loadUrl("https://www.google.com/")
 
     }
 

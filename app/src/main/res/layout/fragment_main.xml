@@ -318,7 +318,7 @@
                             android:id="@+id/ai_img_view"
                             android:layout_width="45dp"
                             android:layout_height="45dp"
-                            android:src="@drawable/artificial_intelligence"
+                            android:src="@drawable/icon_instruction"
                             app:layout_constraintBottom_toBottomOf="@id/imageView25"
                             app:layout_constraintEnd_toEndOf="@+id/imageView25"
                             app:layout_constraintStart_toStartOf="@id/imageView25"
@@ -329,7 +329,7 @@
                         android:id="@+id/text_view_ai"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="AI"
+                        android:text="Intstruction"
                         android:textAlignment="center"
                         android:textColor="@color/back_blue"
                         android:textSize="17sp" />
