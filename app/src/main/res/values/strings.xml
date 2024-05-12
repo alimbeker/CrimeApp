@@ -33,4 +33,7 @@
     <string name="password">Password</string>
     <string name="re_password">Re-Password</string>
     <string name="privacy"><![CDATA[I accept Privacy policy & Terms and Conditions]]></string>
+    <string name="upload_picture">Upload Picture</string>
+    <string name="already_have_account_login">Already have account Login</string>
+    <string name="skip">Skip >></string>
 </resources>
