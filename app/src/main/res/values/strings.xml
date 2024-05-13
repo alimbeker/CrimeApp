@@ -35,5 +35,11 @@
     <string name="privacy"><![CDATA[I accept Privacy policy & Terms and Conditions]]></string>
     <string name="upload_picture">Upload Picture</string>
     <string name="already_have_account_login">Already have account Login</string>
-    <string name="skip">Skip >></string>
+    <string name="skip">Skip</string>
+    <string name="login">Login</string>
+    <string name="privacy_statement">Privacy statement</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="enter_password">Enter password</string>
+    <string name="stay_me_login">Stay me login</string>
+    <string name="with_our_app_you_can_browse_thousands_of_hotels_and_flights_from_around_the_world_compare_prices_and_book_your_reservations_all_in_one_place_we_know_that_travel_planning_can_be_overwhelming_which_is_why_we_ve_created_an_app_that_simplifies_the_process_and_puts_everything_you_need_at_your_fingertips">With our app, you can browse thousands of hotels and flights from around the world, compare prices, and book your reservations all in one place. We know that travel planning can be overwhelming, which is why we\'ve created an app that simplifies the process and puts everything you need at your fingertips.</string>
 </resources>
