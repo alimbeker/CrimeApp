@@ -315,7 +315,7 @@
                             app:layout_constraintTop_toTopOf="parent" />
 
                         <ImageView
-                            android:id="@+id/ai_img_view"
+                            android:id="@+id/instruction_img_view"
                             android:layout_width="45dp"
                             android:layout_height="45dp"
                             android:src="@drawable/icon_instruction"
