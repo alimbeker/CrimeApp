@@ -195,7 +195,7 @@
             android:textSize="12sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.12"
+            app:layout_constraintHorizontal_bias="0.13"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/move_to_register_screen" />
 
@@ -207,7 +207,7 @@
             android:layout_marginRight="32dp"
             android:layout_marginTop="4dp"
             android:fontFamily="@font/plusjakartasans_regular"
-            android:text="@string/with_our_app_you_can_browse_thousands_of_hotels_and_flights_from_around_the_world_compare_prices_and_book_your_reservations_all_in_one_place_we_know_that_travel_planning_can_be_overwhelming_which_is_why_we_ve_created_an_app_that_simplifies_the_process_and_puts_everything_you_need_at_your_fingertips"
+            android:text="@string/privacy_statement_text"
             android:textColor="@color/layout_head_text"
             android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="parent"
