@@ -1,4 +1,4 @@
-package com.example.crimeguardian.presentation
+package com.example.crimeguardian.authentication
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -24,4 +24,4 @@ class LoginFragment : Fragment() {
     }
 
 
-    }
+}

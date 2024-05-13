@@ -64,7 +64,7 @@
         tools:layout="@layout/fragment_a_i" />
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.example.crimeguardian.presentation.LoginFragment"
+        android:name="com.example.crimeguardian.authentication.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" />
 </navigation>
