@@ -43,9 +43,6 @@
         <action
             android:id="@+id/action_mainFragment_to_AIFragment"
             app:destination="@id/AIFragment" />
-        <action
-            android:id="@+id/action_mainFragment_to_loginFragment"
-            app:destination="@id/loginFragment" />
     </fragment>
     <fragment
         android:id="@+id/articleFragment"
@@ -62,9 +59,4 @@
         android:name="com.example.crimeguardian.presentation.ai.fragment.AIFragment"
         android:label="fragment_a_i"
         tools:layout="@layout/fragment_a_i" />
-    <fragment
-        android:id="@+id/loginFragment"
-        android:name="com.example.crimeguardian.authentication.LoginFragment"
-        android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
 </navigation>

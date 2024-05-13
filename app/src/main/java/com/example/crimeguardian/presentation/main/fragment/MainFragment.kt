@@ -28,16 +28,6 @@ class MainFragment : Fragment() {
         webViewPage()
         userPageScreen()
         aiPageScreen()
-        loginScreen()
-    }
-
-    private fun loginScreen() {
-        binding.apply {
-            imageView6.setOnClickListener{
-                val action = MainFragmentDirections.actionMainFragmentToLoginFragment()
-                findNavController().navigate(action)
-            }
-        }
     }
 
 
@@ -86,7 +76,7 @@ class MainFragment : Fragment() {
     }
     private fun aiPageScreen(){
         binding.apply {
-            aiImgView.setOnClickListener {
+            instructionImgView.setOnClickListener {
                 val action = MainFragmentDirections.actionMainFragmentToAIFragment()
                 findNavController().navigate(action)
             }

@@ -31,7 +31,8 @@ class ProfileFragment : BaseFragment<FragmentProfileBinding>(FragmentProfileBind
 
         binding.extraCall.setOnClickListener {
             selectedContactNumber?.let { makeCall(it) }
-                ?: showToast("Number is not initialized")
+                ?: showToast("Yamada KUDASSAAYY oh baby")
+            pickContact()
         }
     }
 

@@ -315,10 +315,10 @@
                             app:layout_constraintTop_toTopOf="parent" />
 
                         <ImageView
-                            android:id="@+id/ai_img_view"
+                            android:id="@+id/instruction_img_view"
                             android:layout_width="45dp"
                             android:layout_height="45dp"
-                            android:src="@drawable/artificial_intelligence"
+                            android:src="@drawable/icon_instruction"
                             app:layout_constraintBottom_toBottomOf="@id/imageView25"
                             app:layout_constraintEnd_toEndOf="@+id/imageView25"
                             app:layout_constraintStart_toStartOf="@id/imageView25"
@@ -326,10 +326,10 @@
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                     <TextView
-                        android:id="@+id/text_view_ai"
+                        android:id="@+id/text_view_instruction"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="AI"
+                        android:text="@string/instruction"
                         android:textAlignment="center"
                         android:textColor="@color/back_blue"
                         android:textSize="17sp" />
